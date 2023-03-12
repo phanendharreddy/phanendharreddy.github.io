@@ -5,9 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>Phanendhar Reddy Kusuma</p>
+        <p>Software Devlopment Engineer</p>
+        
         <img src={logo}  alt="logo" />        
-        <h1>THIS IS TEST</h1>
+        
       </header>
+      <p>
+      <h1>THIS IS TEST</h1>
+      </p>
     </div>
   );
 }

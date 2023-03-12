@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/phanendharreddy.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/phanendharreddy.github.io/static/js/main.f973eb3a.js",
+    "static/js/787.07238f48.chunk.js": "/phanendharreddy.github.io/static/js/787.07238f48.chunk.js",
+    "index.html": "/phanendharreddy.github.io/index.html",
+    "main.073c9b0a.css.map": "/phanendharreddy.github.io/static/css/main.073c9b0a.css.map",
+    "main.f973eb3a.js.map": "/phanendharreddy.github.io/static/js/main.f973eb3a.js.map",
+    "787.07238f48.chunk.js.map": "/phanendharreddy.github.io/static/js/787.07238f48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f973eb3a.js"
+  ]
+}

@@ -21,10 +21,16 @@ const Footer = () => {
             <h4>Personal Note</h4>
             <p> A quick summary of mine</p>
             <p> Objectives</p>
-            <div className="socials">
-            <FaTwitter size={20} style={{color:"#fff", marginRight:"2rem" }}/>
-            <FaLinkedin size={20} style={{color:"#fff", marginRight:"2rem" }}/>
-            <FaGithub size={20} style={{color:"#fff", marginRight:"2rem" }}/>
+            <div className="socials"> 
+            <a href="https://www.twitter.com/phanendharr_ddy">
+            <FaTwitter className="twitter" size={40} style={{color:"#fff", marginRight:"2rem" }}/>
+            </a>
+            <a href="https://www.linkedin.com/in/phanendharreddy">
+            <FaLinkedin className="linkedin" size={40} style={{color:"#fff", marginRight:"2rem" }}/>
+            </a>
+            <a href="https://www.github.com/phanendharreddy">
+            <FaGithub className="github" size={40} style={{color:"#fff", marginRight:"2rem" }}/>
+            </a>
             </div>
             </div>
         </div>

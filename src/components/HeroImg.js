@@ -1,6 +1,7 @@
 import "./HeroImgStyles.css";
 import React from "react";
 import IntroImg from "../assets/logo.png";
+import Resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom"
 const HeroImg = () => {
     return (
@@ -15,6 +16,9 @@ const HeroImg = () => {
                     <Link to="/projects" className= "btn"> PRojects </Link>
                     <Link to="/contact" className= "btn-light"> Contact </Link>
                 </div>
+            </div>
+            <div className="resume">
+                <a href={Resume} className= "btnresume"> <p>RESUME</p></a>
             </div>
         </div>
     )

@@ -1,17 +1,18 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
-import HeroImg from "../components/HeroImg";
 import Footer from "../components/Footer";
-import Work from "../components/Work";
-const home = () => {
+import HeroImgSecond from "../components/HeroImgSecond";
+
+
+
+const Blogs = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg />
-      <Work/>
+      <HeroImgSecond/>
       <Footer />
     </div>
   )
 }
 
-export default home;
+export default Blogs

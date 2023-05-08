@@ -5,6 +5,7 @@ import Home from "./routes/Home";
 import Projects from "./routes/Projects";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
+import Blogs from "./routes/Blogs";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<About />} />
+      <Route path="/blogs" element={<Blogs/>}/>
       <Route path="/contact" element={<Contact />} />
     </Routes>
     </Router>

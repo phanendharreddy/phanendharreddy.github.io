@@ -17,29 +17,29 @@
     z-index: -1;
 }
 
-.heading{
-    width:100%;
-    height:100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-}
+
 
 .hero-img h1{
     font-size:1.4rem;
-    
+}
 
-}
-.hero-img p{
-    font-size: 1.4rem;
-    text-align: center;
-}
 
 @media screen and (max-width:640px) {
     .hero-img h1{
         font-size:2rem;
         
     
+    }
+    .hero-img p{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .heading{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
     }
 }

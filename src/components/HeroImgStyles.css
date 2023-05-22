@@ -48,6 +48,12 @@
     margin:1rem 0.2rem;
     margin-bottom: 10rem    ;
 }
+.content .btn-light{ 
+    display: -moz-inline-stack ;
+    margin:1rem 0.2rem;
+    margin-bottom: 10rem    ;
+}
+
 .resume{
     font-size: medium;
     font-weight: bold;
@@ -85,10 +91,15 @@ transition: all 0.3s ease;
 }
 
 @media screen and (max-width:640px) {
+    .content .btn, .content .btn-light {
+    margin: 1rem 0.2rem;
+    margin-bottom: 10rem;
+}
     .hero .content h1{
         font-size: 3rem;
     }
     .hero .content p{
         font-size: 1.4rem;
     }
+
 }

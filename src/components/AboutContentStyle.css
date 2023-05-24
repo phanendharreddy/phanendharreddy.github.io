@@ -11,12 +11,13 @@
 
 .about .left{
     text-align: center;
-    margin:auto;
+    margin:auto;     
     padding: 1rem;
-    max-width:350px;
+    max-width:750px;
 
 }
 .about .left p{
+    text-align: left;
     margin: 1.2rem 0;
 
 }

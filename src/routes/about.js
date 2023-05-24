@@ -3,16 +3,18 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroImgSecond from "../components/HeroImgSecond";
 import AboutContent from '../components/AboutContent';
-const about = () => {
+import ResumeFile from "../components/Resume";
+const About = () => {
   return (
     <div>
       <Navbar/>
       <HeroImgSecond heading="About" text="Aspiring SDE"/>  
       <AboutContent />
+      <ResumeFile/>
       <Footer />
     </div>
   )
 }
 
-export default about
+export default About
  

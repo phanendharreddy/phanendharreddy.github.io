@@ -3,6 +3,7 @@ import React from 'react';
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logoFile from "../assets/logo.png";
 const Navbar = () => { 
     const[click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -18,7 +19,8 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor);
     return (
         <div className={color ? "header header-bg" : "header"}>
-        <Link to="/"> <h1>Phanendhar Reddy Kusuma</h1> </Link>
+        
+        <h1 className="name"> <Link to="/"> <img className="logo" src={logoFile} alt="Logo" /> </Link> Phanendhar Reddy Kusuma</h1>
         <ul className={click ? "nav-menu active":"nav-menu"}>
             <li>
                 <Link to="/">Home</Link>

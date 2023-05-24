@@ -3,15 +3,17 @@ import Navbar from "../components/Navbar";
 import HeroImg from "../components/HeroImg";
 import Footer from "../components/Footer";
 import Work from "../components/Work";
-const home = () => {
+import ResumeFile from "../components/Resume";
+const Home = () => {
   return (
     <div>
       <Navbar/>
       <HeroImg />
       <Work/>
+      <ResumeFile/>
       <Footer />
     </div>
   )
 }
 
-export default home;
+export default Home;

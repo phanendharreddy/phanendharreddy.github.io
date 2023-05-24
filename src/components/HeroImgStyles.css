@@ -63,18 +63,15 @@
     margin-bottom: 10rem;
 }
 .resume .btnresume{
-    display: inline-block;
-    bottom:0%;
-    left:0%;
+    bottom:1%;
+    right:0%;
     margin-bottom: 0%;
     margin-left: 0%;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
     background-color: #1e2826;
     position: fixed;
-    bottom: 20px;
-    left: 50%;
     transform: translateX(-50%);
     border-style: ridge;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
@@ -86,8 +83,7 @@ transition: all 0.3s ease;
     }
 
 .resume .btnresume p {
-    margin: 2.2rem 0.6rem;
-    
+    margin: 1.0rem;
 }
 
 @media screen and (max-width:640px) {

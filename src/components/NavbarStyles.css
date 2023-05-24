@@ -11,7 +11,16 @@ z-index: 10;
 .header-bg{
     background-color: rgba(0,0,0,0.85);
     transition: 0.5s;
-    
+}
+
+.logo {
+    width: 60px; /* Adjust the width to the desired size */
+    height: auto; /* Let the height scale proportionally */
+    margin-right: 10px;
+}
+.header h1{
+    display: inline-flex;
+    align-items: center;
 }
 .nav-menu{
     display: flex;

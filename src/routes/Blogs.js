@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroImgSecond from "../components/HeroImgSecond";
-
+import ResumeFile from "../components/Resume";
 
 
 const Blogs = () => {
@@ -10,6 +10,7 @@ const Blogs = () => {
     <div>
       <Navbar/>
       <HeroImgSecond/>
+      <ResumeFile/>
       <Footer />
     </div>
   )

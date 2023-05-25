@@ -17,6 +17,7 @@ const Work = () => {
             imgsrc={val.imgsrc} 
             title={val.title} 
             text={val.text} 
+            tectstack={val.techstack}
             source={val.source} 
             /> 
             );

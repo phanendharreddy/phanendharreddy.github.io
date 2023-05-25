@@ -9,6 +9,7 @@ const ProjectWorkCard = (props) => {
             <h2 className="project-title">{props.title}</h2>
             <div className="pro-details"> 
             <p>{props.text}</p>
+            <h3 className="techstack">Tech Stack : {props.tectstack}</h3>
             <div className="pro-btn">
               <NavLink to={props.source} className="btn">Source</NavLink>
             </div>

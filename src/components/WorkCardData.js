@@ -1,7 +1,10 @@
 import SarcasamDetection from "../assets/SarcasamDetection.jpg"
 import sde from "../assets/sde.jpeg"
 import CyberBullyingDetection from "../assets/cyberbullyingDetection.png"
-
+import WeatherAppPic from "../assets/weatherapp.png"
+import PortfolioPic from "../assets/portfoliopic.png"
+import BackendAPIpic from "../assets/backendapi.png"
+import OwnBrowser from "../assets/ownbrowser.png"
 const ProjectCardData = [
     {
         imgsrc: CyberBullyingDetection,
@@ -20,7 +23,7 @@ const ProjectCardData = [
         
     },
     {
-        imgsrc: sde,
+        imgsrc: WeatherAppPic,
         title: "Weather Web application",
         text:"This weather web application project aims to provide real-time weather information for different cities. The application is built using HTML, CSS, and JavaScript, with Bootstrap for styling. Users can search for a specific city using the search input field and retrieve weather data for that location. The application fetches weather data from the Rapid API hub using a RapidAPI key. The retrieved data includes temperature, humidity, wind speed, sunrise and sunset times, and other relevant weather information. The application dynamically updates the displayed weather details for the searched city. Additionally, the project includes a comparison table that showcases weather data for multiple cities. Overall, this web application enables users to stay informed about current weather conditions and make comparisons between different cities.",
         techstack:"HTML, CSS and JavaScript",
@@ -28,15 +31,15 @@ const ProjectCardData = [
         
     },
     {
-        imgsrc: sde,
+        imgsrc: OwnBrowser,
         title: "Private Browser",
-        text:"project description",
+        text:"This project is a custom web browser application built using PyQt5, a Python library for creating desktop applications with a web browsing functionality. The browser features a main window with a tabbed interface, allowing users to open multiple web pages simultaneously. It provides basic web browsing functionalities such as navigating backward and forward, refreshing the page, and loading a specific URL. The application also includes a navigation bar with an address bar for entering URLs, as well as buttons for common navigation actions. Users can create new tabs to open additional web pages and close tabs as needed. The browser utilizes the QWebEngineView class to display web content and QWebEngineProfile to manage browser settings. Overall, this project offers a simple and customizable web browsing experience within a PyQt5-based desktop application.",
         techstack:"Python and PyQt5 Library",
         source:"https://www.github.com/phanendharreddy/ownBrowser"
         
     },
     {
-        imgsrc: sde,
+        imgsrc: BackendAPIpic,
         title: "Backend API Service for Authorization and Authentication in Golang",
         text:"I've applied for GitHub Octernship program and then I received an assignment to be completed for the program. This assignment was focused on building a backend API service in Golang with the help of the Gin web framework. The goal was to handle the authentication and authorization functionalities of a web app, such as user login, logout, adding and deleting user accounts, and listing all users in the organization. To ensure the security of user data, I used tools like JWT for tokenization and bcrypt for hashing the password. For database management, I opted for MongoDB, a NoSQL database that offers high scalability and flexibility. The project was tested using Postman, a popular tool for API testing, and once it was complete, I uploaded it to a repository. Throughout this project, I gained valuable experience in Golang development, API design, and database management, which will prove useful in future Open-source projects.",
         techstack:"Golang and Postman",
@@ -44,9 +47,9 @@ const ProjectCardData = [
         
     },
     {
-        imgsrc: sde,
+        imgsrc: PortfolioPic,
         title: "My Portfolio Repository",
-        text:"project description",
+        text:"This project is a React-based web application that consists of multiple routes and components. It utilizes JavaScript and CSS files to create a responsive portfolio website. The main entry point is the App.js file, which sets up the router and defines the routes for the different pages. The Home.js file renders the homepage, including components such as the Navbar, Hero Image, Work section, Resume section, and Footer. The About.js file displays the about page, featuring the Navbar, Hero Image with the About heading, About Content section, Resume section, and Footer. The Projects.js file showcases the projects page, including the Navbar, Hero Image with the Projects heading, Work section, Resume section, and Footer. Lastly, the Contact.js file presents the contact page with the Navbar, Hero Image with the Contact heading, a contact form, Resume section, and Footer. Overall, this project allows users to navigate through different sections of the portfolio, including the home, projects, about, and contact pages, providing a comprehensive overview of my skills and experience.",
         techstack:"HTML, CSS, JavaScript and React Framework",
         source:"https://www.github.com/phanendharreddy/phanendharreddy.github.io"
         

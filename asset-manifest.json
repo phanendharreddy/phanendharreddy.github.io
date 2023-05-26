@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.e729a675.css",
-    "main.js": "/static/js/main.e5e745a3.js",
+    "main.js": "/static/js/main.b8d04f69.js",
     "static/js/787.07238f48.chunk.js": "/static/js/787.07238f48.chunk.js",
     "static/media/SarcasamDetection.jpg": "/static/media/SarcasamDetection.f76626bc13fadb03ce7c.jpg",
+    "static/media/portfoliopic.png": "/static/media/portfoliopic.0dd0d333228c26b57128.png",
+    "static/media/ownbrowser.png": "/static/media/ownbrowser.341f225aef22474ccbd4.png",
+    "static/media/backendapi.png": "/static/media/backendapi.05fa1ed814d579acfcd1.png",
     "static/media/cyberbullyingDetection.png": "/static/media/cyberbullyingDetection.3da53c123f8083701cf6.png",
+    "static/media/weatherapp.png": "/static/media/weatherapp.b7fc3d17a500f1466c73.png",
     "static/media/resume.pdf": "/static/media/resume.79a6cec8e1f057a9ad69.pdf",
     "static/media/sde.jpeg": "/static/media/sde.ddaf6634146b6c0b25db.jpeg",
     "static/media/about1.webp": "/static/media/about1.fe7b25e29b7136a0b26b.webp",
     "static/media/about2.jpg": "/static/media/about2.cec0dec0c42f5974a683.jpg",
     "index.html": "/index.html",
     "main.e729a675.css.map": "/static/css/main.e729a675.css.map",
-    "main.e5e745a3.js.map": "/static/js/main.e5e745a3.js.map",
+    "main.b8d04f69.js.map": "/static/js/main.b8d04f69.js.map",
     "787.07238f48.chunk.js.map": "/static/js/787.07238f48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e729a675.css",
-    "static/js/main.e5e745a3.js"
+    "static/js/main.b8d04f69.js"
   ]
 }

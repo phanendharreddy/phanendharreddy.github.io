@@ -21,6 +21,7 @@ const Navbar = () => {
         <div className={color ? "header header-bg" : "header"}>
         
         <h1 className="name"> <Link to="/"> <img className="logo" src={logoFile} alt="Logo" /> </Link> Phanendhar Reddy Kusuma</h1>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="phanendharreddy" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/phanendharreddy?trk=profile-badge">Phanendhar Reddy Kusuma</a></div>
         <ul className={click ? "nav-menu active":"nav-menu"}>
             <li>
                 <Link to="/">Home</Link>

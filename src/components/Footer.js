@@ -9,10 +9,10 @@ const Footer = () => {
             <div className="left"> 
             <div className="location"> 
             <h4> <FaHome size={20} style={{color:"#fff", marginRight:"2rem" }}/> 
-                    Hyderabad, India. </h4>
+                    Harrison, NJ </h4>
                     </div>
             <div className="phone">
-                <h4> <FaPhone size={20} style={{color:"#fff", marginRight:"2rem" }}/> +917729026081 </h4>
+                <h4> <FaPhone size={20} style={{color:"#fff", marginRight:"2rem" }}/> +1 (551) 328-1845 </h4>
             </div>
             <div className="email">
                 <h4> <FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem" }}/> phanendharreddykusuma@gmail.com </h4>

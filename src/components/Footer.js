@@ -47,9 +47,9 @@ const Footer = () => {
             </div>
             <div className="right">
             <h4>Personal Note</h4>
-            <p> SUMMARY : Motivated CS graduate skilled in both front-end and back-end development. Strong foundation in data structures and algorithms with proven ability to collaborate and communicate effectively. Committed to staying up-to-date with industry trends.</p>
+            <p> Summary: A Full Stack Developer and aspiring Software Engineer with expertise in Java, Python, React.js, Node.js, and Spring Boot. Currently pursuing a Masters in Information Systems at Wilmington University, I strive to create innovative and scalable solutions in software development. Connect with me on LinkedIn or explore my work on GitHub.</p>
             <br></br> \n
-            <p> OBJECTIVES : To secure a challenging role as a software development engineer where I can leverage my passion for software development and work on real-time, high-scalable applications while gaining hands-on experience in the field. As a recent graduate in computer science, I am eager to learn and apply my skills to contribute to the success of a dynamic team.
+            <p> Objective: I am actively seeking opportunities as a Full Stack Developer or Software Development Engineer to leverage my technical expertise and academic qualifications. With a strong foundation in Java, Python, React.js, Node.js, and Spring Boot, I am eager to contribute to innovative projects and showcase the skills I’ve honed through professional experience and education.
             </p>
             
             </div>

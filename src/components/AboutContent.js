@@ -8,9 +8,9 @@ const AboutContent = () => {
     <div className="about">  
         <div className="left">
             <h1>About me</h1>
-            <p>I'm Phanendhar Reddy Kusuma, a Software Development Engineer with a passion for creating real-time, high-scalable applications. I recently graduated with a B.Tech in Computer Science and Engineering from Kommuri Pratap Reddy Institute of Technology in Hyderabad, India.</p>
-            <p>During my education, I gained a strong foundation in programming languages such as Java, Python, C, C++, and Rust. Additionally, I have experience in front-end development using HTML, CSS, JavaScript, and React, as well as back-end development with MySQL and Spring. I am proficient in tools like Git, Eclipse, Maven, VS Code, and Microsoft Office.</p>
-            <p> I have worked on several projects that demonstrate my technical skills. For instance, I developed a Cyberbullying Detection system using Deep Learning, where I utilized a Character-level Convolutional Neural Network (Char-CNN) model to identify bullying content on social media. I also extended the Lexicon Algorithm for Sarcasm Detection, enhancing its capabilities by adding a sentiment prediction component. </p>
+            <p>Hi, I'm Phanendhar Reddy Kusuma – A Passionate Full Stack Developer and Aspiring Software Development Engineer!</p>
+            <p>With a strong foundation in software engineering, I specialize in building scalable web applications, optimizing backend systems, and creating innovative solutions using cutting-edge technologies. Currently pursuing a Master’s in Information Systems at Wilmington University, I aim to contribute to impactful projects in the tech industry.</p>
+            <p>I am a results-driven software engineer with over two years of experience as a Full Stack Developer at Ellipse Technologies. My expertise spans across Java, Python, React.js, Node.js, and Spring Boot. I have successfully developed scalable web applications and RESTful APIs that improved platform performance by 40%. My passion lies in solving complex problems through innovative solutions in areas like blockchain, data science, and AI-driven systems. Outside of work, I enjoy participating in hackathons and exploring emerging technologies.</p>
             <Link to="/contact" >
             <button className="btn">Contact</button>
             </Link>

@@ -1,0 +1,59 @@
+.experience {
+  max-width: 1140px;
+  margin: 0 auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.timeline-card {
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 16px;
+  padding: 1.6rem;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-header h3 {
+  margin: 0;
+  color: #f8fafc;
+}
+
+.company {
+  color: #cbd5f5;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+}
+
+.timeline-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #e2e8f0;
+}
+
+.timeline-card li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 640px) {
+  .meta {
+    text-align: left;
+  }
+}

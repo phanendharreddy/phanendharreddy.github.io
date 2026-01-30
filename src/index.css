@@ -7,13 +7,26 @@
   font-family:"Outfit", sans-serif;
 }
 body{
-  background: #000;
+  background: radial-gradient(circle at top, #0b1220, #020617 55%);
 
 }
 h1,h4,p,
 a{
   color: #fff;
   text-decoration:none;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.section-heading h2 {
+  font-size: 2.2rem;
+}
+
+.section-heading p {
+  color: #cbd5f5;
 }
 ul{
   list-style-type: none;
@@ -22,25 +35,30 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background:rgb(256,217,16);
-  color: #222;
-  border: 1px solid #fff;
+  background: linear-gradient(120deg, #facc15, #f59e0b);
+  color: #111827;
+  border: 1px solid rgba(251, 191, 36, 0.6);
   font-weight:600;
   cursor:pointer;
+  border-radius: 999px;
+  box-shadow: 0 10px 20px rgba(250, 204, 21, 0.25);
 }
 
 .btn-light{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: transparent;
+  background: rgba(15, 23, 42, 0.5);
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid rgba(148, 163, 184, 0.5);
   font-weight:600;
   cursor:pointer;
+  border-radius: 999px;
 }
-.btn.hover {
-  background:rgba(255,255,255,0.2);
-  color:#fff;
-  transition: 0.3s;
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(250, 204, 21, 0.35);
+}
+.btn-light:hover {
+  background: rgba(30, 41, 59, 0.8);
 }

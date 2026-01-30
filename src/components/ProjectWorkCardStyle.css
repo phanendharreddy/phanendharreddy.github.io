@@ -1,7 +1,16 @@
 
 .project-heading{
     text-align: center;
-    padding: 4rem  0 2rem 0;
+    padding: 5rem 0 3rem 0;
+}
+.project-heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8b9cec;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .project-container {
@@ -14,20 +23,34 @@
     box-align: center;
     justify-content: center;
     grid-gap: 40px; 
-    
+    padding: 0 2rem;
 }
 .project-card{
-    background: #1a1919;   
-    padding:1.2rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding:1.5rem;
     width: 100%;
     height:100%;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
 }
-.project-container :hover {
-    background-color: lightslategray;
+.project-container .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(102, 126, 234, 0.5);
 }
 .project-card img{
     width:100%;
-    height: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.project-card:hover img{
+    transform: scale(1.05);
 }
 
 .project-title {
@@ -41,39 +64,48 @@
     text-align: center;
     padding-bottom: 1rem;
     height:50px;
+    font-weight: 600;
 }
 .pro-details p{
     padding-bottom: 1rem;
-    font-size:1.1rem;
+    font-size:1rem;
     text-align:justify;
     height:550px;
-
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .pro-details h3{
     display: flex;
-    margin-bottom: 2px;
-    color:white;    
+    margin-bottom: 10px;
+    color: #667eea;    
     height:20px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 .pro-btn { 
     display: flex;
-    justify-content: space-between;
-    padding: 2.2rem 7.5rem;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 .pro-btn a{
     text-decoration: none;
-    color: black;
-    border: 1px solid #fff;
-    padding: 0.5rem 1.5rem;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    transition: all 0.3s ease-in-out;
+    color: #fff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 0.7rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
 
 .pro-btn a:hover{
-    background-color: greenyellow;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
 }
 
 
@@ -83,5 +115,8 @@
         max-width:90%;
         margin:auto;
         grid-template-columns: 1fr;
+    }
+    .project-heading h1 {
+        font-size: 2rem;
     }
 }

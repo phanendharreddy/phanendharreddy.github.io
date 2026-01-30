@@ -1,5 +1,4 @@
 import SarcasamDetection from "../assets/SarcasamDetection.jpg"
-import sde from "../assets/sde.jpeg"
 import CyberBullyingDetection from "../assets/cyberbullyingDetection.png"
 import WeatherAppPic from "../assets/weatherapp.png"
 import PortfolioPic from "../assets/portfoliopic.png"

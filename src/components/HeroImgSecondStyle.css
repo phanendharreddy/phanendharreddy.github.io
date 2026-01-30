@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    animation: fadeInUp 0.8s ease-out;
+    animation: fadeInUp 0.8s ease-out forwards;
 }
 
 @keyframes fadeInUp {
@@ -60,6 +60,7 @@
     font-size:3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: #8b9cec;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

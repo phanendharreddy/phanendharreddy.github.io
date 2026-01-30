@@ -35,7 +35,7 @@
     text-align: center;
     color:#fff;
     z-index: 1;
-    animation: fadeInUp 1s ease-out;
+    animation: fadeInUp 1s ease-out forwards;
 }
 @keyframes fadeInUp {
     from {
@@ -58,6 +58,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #8b9cec;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

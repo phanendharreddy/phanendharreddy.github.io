@@ -6,6 +6,7 @@
 .project-heading h1 {
     font-size: 3rem;
     font-weight: 700;
+    color: #8b9cec;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -26,6 +27,7 @@
 }
 .project-card{
     background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding:1.5rem;
     width: 100%;

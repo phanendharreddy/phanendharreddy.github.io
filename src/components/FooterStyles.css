@@ -1,7 +1,9 @@
 .footer {
     width:100%;
     padding: 6rem 0;
-    background-color: rgba(19, 19, 19, 0.8);
+    background: linear-gradient(135deg, rgba(10, 14, 39, 0.95) 0%, rgba(26, 26, 46, 0.95) 100%);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(102, 126, 234, 0.2);
 }
 .footer-container{
     max-width: 1140px;
@@ -9,43 +11,80 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
+    padding: 0 2rem;
 }
 .left{
     height:100%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding:3rem;
+    padding:2rem;
 }
 .location{
     display:flex;
-    margin-bottom:0.8rem;
+    align-items: center;
+    margin-bottom:1.5rem;
     line-height: 30px;
+    transition: all 0.3s ease;
+}
+.location:hover{
+    transform: translateX(5px);
+    color: #667eea;
+}
+.location img{
+    margin-right: 15px;
+    filter: brightness(0) invert(1);
 }
 
 .phone{
     display:flex;
-    margin-bottom:0.8rem;
+    align-items: center;
+    margin-bottom:1.5rem;
     line-height: 30px;
+    transition: all 0.3s ease;
+}
+.phone:hover{
+    transform: translateX(5px);
+    color: #667eea;
+}
+.phone img{
+    margin-right: 15px;
+    filter: brightness(0) invert(1);
 }
 .right {
     height:100%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding:1rem;
+    padding:2rem;
 }
 .socials {
     margin-top:2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.socials a{
+    transition: all 0.3s ease;
+    filter: brightness(0) invert(1);
+}
+.socials a:hover{
+    transform: translateY(-5px) scale(1.1);
+    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(102, 126, 234, 0.8));
 }
 h4{
-    font-size: 1.2rem;
-    padding-bottom: 0.7rem;
-
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 p{
-    font-size:1.2rem;
-
+    font-size:1.1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 @media screen and (max-width:640px) {

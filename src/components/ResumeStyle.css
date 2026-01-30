@@ -8,25 +8,29 @@
     margin-bottom: 10rem;
 }
 .resume .btnresume{
-    bottom:3%;
-    right:0%;
+    bottom:2%;
+    right:2%;
     margin-bottom: 0%;
     margin-left: 0%;
-    width: 120px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: #1e2826;
+    width: 130px;
+    height: 65px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     position: fixed;
-    transform: translateX(-50%);
-    border-style: ridge;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0px 6px 20px rgba(102, 126, 234, 0.5);
+    transition: all 0.3s ease;
+    z-index: 1000;
 }
 .resume .btnresume:hover {
-    background-color: #2f3e3b;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
-    }
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 25px rgba(102, 126, 234, 0.7);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
 
 .resume .btnresume p {
-    margin: 1.0rem;
+    margin: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
 }

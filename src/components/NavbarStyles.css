@@ -2,37 +2,63 @@
 display:flex;
 justify-content: space-between;
 align-items:center;
-padding: 1rem;
+padding: 1rem 2rem;
 position:fixed;
 width:100%;
 height:90px;
 z-index: 10;
+transition: all 0.3s ease;
 }
 .header-bg{
-    background-color: rgba(0,0,0,0.85);
+    background: rgba(10, 14, 39, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
 
 .logo {
-    width: 60px; /* Adjust the width to the desired size */
-    height: auto; /* Let the height scale proportionally */
+    width: 60px;
+    height: auto;
     margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
 }
 .header h1{
     display: inline-flex;
     align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 .nav-menu{
     display: flex;
 
 }
 .nav-menu li{
-    padding:0 1rem;
+    padding:0 1.2rem;
 }
 .nav-menu li a{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
-
+    position: relative;
+    transition: color 0.3s ease;
+}
+.nav-menu li a:hover{
+    color: #667eea;
+}
+.nav-menu li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: width 0.3s ease;
+}
+.nav-menu li a:hover::after {
+    width: 100%;
 }
 
 .hamburger{
@@ -46,7 +72,8 @@ z-index: 10;
         align-items:center;
         width:100%;
         height:100vh;
-        background: rgba(0,0,0,0.9);
+        background: rgba(10, 14, 39, 0.98);
+        backdrop-filter: blur(10px);
         position: absolute;
         top: 0;
         left: -100%;

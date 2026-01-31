@@ -1,27 +1,51 @@
 .cta-banner {
   width: 100%;
-  padding: 4rem 2rem;
-  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
-  margin: 2rem 0;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #4a90e2 0%, #7c3aed 50%, #357abd 100%);
+  margin: 3rem 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(74, 144, 226, 0.3);
+}
+
+.cta-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent);
+  border-radius: 50%;
+  animation: pulse 15s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
 }
 
 .cta-content {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .cta-content h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: white;
-  margin: 0 0 1rem 0;
-  font-weight: 700;
+  margin: 0 0 1.2rem 0;
+  font-weight: 800;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .cta-content p {
-  font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.9);
-  margin: 0 0 2rem 0;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 2.5rem 0;
+  line-height: 1.6;
 }
 
 .cta-buttons {
@@ -46,22 +70,26 @@
   background: white;
   color: #4a90e2;
   border-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .cta-btn.primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .cta-btn.secondary {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.15);
   color: white;
   border-color: white;
+  backdrop-filter: blur(10px);
 }
 
 .cta-btn.secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 768px) {

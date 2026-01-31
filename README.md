@@ -128,12 +128,6 @@ npm run deploy
 - Education and credentials
 - Personal highlights
 
-### **Contact**
-- Contact form for inquiries
-- Multiple contact methods
-- Social media links
-- Direct messaging options
-
 ### **Blogs**
 - Articles and blog posts
 - Professional insights
